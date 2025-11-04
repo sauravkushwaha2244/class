@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2x2 Grid with Divs (CSS Grid)</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .grid-container {
             display: grid;
@@ -29,6 +30,37 @@
   
   </div>
 </div>
+<label for = "laptop"> laptop:</label>
+               <select onchange="location=this.value;"id="laptop" name="laptop" required>
+               <option value="#">select laptop</option>
+               <option value = "dell">dell</option>
+               <option value = "hp">hp</option>
+               <option value = "lenovo">lenovo</option>
+               <option value = "asus">asus</option>
+               </select>
+               <label for = "mobile Phones"> mobile Phones:</label>
+               <select onchange="location=this.value;" id="mobile Phones" name="mobile Phones" required>
+               <option value="#">select mobile Phones</option>
+               <option value = "samsung">samsung</option>
+               <option value = "apple">apple</option>
+               <option value = "oneplus">oneplus</option>
+               <option value = "Google Pixel">Google Pixel</option>
+               </select>
+               <label for = "Bikes"> Bikes:</label>
+               <select onchange="location=this.value;" id="Bikes" name="Bikes" required>
+               <option value="#">select Bikes</option>
+               <option value="#bikes">Royal Enfield</option>
+               <option value="bajaj pulsar">bajaj pulsar</option>
+               <option value = "ninja-h2-r">ninja-h2-r</option>
+               <option value = "zx10r">zx10r</option>
+               </select><label for = "Watch"> Watch:</label>
+               <select id="Watch" name="Watch" required>
+               <option value="#">select Watch</option>
+               <option value = "daytona">daytona</option>
+               <option value = "pattek phiilips">pattek phiilips</option>
+               <option value = "rolex">rolex</option>
+               <option value = "tissot">tissot</option>
+               </select>
 
     <div class="grid-container">
         <div class="grid-item"> <section>
@@ -66,7 +98,7 @@
             <tr>
                 <th>
                     <h1>Apple iPhone 13</h1>
-                    <img src="https://www.imagineonline.store/cdn/shop/files/iPhone_13_Starlight_PDP_Image_Position-1A__GBEN.jpg?v=1759733501&width=1445" alt="iPhone 13" height="200" width="200">
+                    <img id=""src="https://www.imagineonline.store/cdn/shop/files/iPhone_13_Starlight_PDP_Image_Position-1A__GBEN.jpg?v=1759733501&width=1445" alt="iPhone 13" height="200" width="200">
                     <p>Apple iPhone 13 (128GB) - Midnight</p>
                 </th>
                 <th>
@@ -94,7 +126,7 @@
             <table border="20" height="400" width="800">
                 <tr>
                     <th>
-                        <h1>GT Continental 650</h1>
+                        <h1 id="bikes">GT Continental 650</h1>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYmcpzYf92KMR9mQMt4V0G8xp2KYIl4LL91g&s" alt="GT Continental 650" height="200" width="200">
                         <p>GT Continental 650 - Meteor Black</p>
                     </th>
