@@ -1,0 +1,33 @@
+body{
+    background-color:#104A82;
+}
+
+         
+
+        .boxWpr{
+            
+            padding: 70px;
+        }
+
+        .margin{
+            background: #ff6f4f;
+            padding: 40px;
+            margin: 20px;
+        }
+
+        .broder{
+            background-color: #02a2c5;
+            padding: 40px;
+            
+        }
+
+        .paddingBox{
+            background: #f7c744;
+            padding: 40px;
+        }
+
+        .contentBox{
+            background: #7bed9f;
+            padding: 40px;
+            
+        }
