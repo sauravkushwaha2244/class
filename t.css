@@ -1,0 +1,13 @@
+.body{
+    align-items: center;
+}
+.heading{
+    
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.img{
+    width: 100px;
+    height: 200px;
+}
